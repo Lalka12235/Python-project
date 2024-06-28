@@ -13,7 +13,7 @@ except ImportError:
 
 tts = pyttsx3.init()
 
-print('Text To Speech Talker, by Al Sweigart al@inventwithpython.com')
+
 print('Text-to-speech using the pyttsx3 module, which in turn uses')
 print('the NSSpeechSynthesizer (on macOS), SAPI5 (on Windows), or')
 print('eSpeak (on Linux) speech engines.')
