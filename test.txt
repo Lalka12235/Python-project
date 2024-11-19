@@ -1,2 +1,1 @@
-name,password
-Egor,$2b$12$ET/7IRQjuP.OXn.kyqitlOvzSshujgiQtvH8x.5AAIRpjrrKWYWhm
+
