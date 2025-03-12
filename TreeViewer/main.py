@@ -16,7 +16,7 @@ def check_dir(path: str):
     if check_path:
         directory = os.listdir(path)
         for dir in directory:
-            if dir != '__pycache__' and dir != '__init__.py' and dir != 'config.py':
+            if os.path.isdir(f'{path}\\{dir}') and dir not in('__pycache__','.idea','.vscode'):
                 print(f'    {dir}\\')
                 for files in os.listdir(f'{path}\\{dir}'):
                     if files != '__pycache__':
